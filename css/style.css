@@ -1,0 +1,59 @@
+.inline-block {
+    display: inline-block;
+    vertical-align:top;
+}
+.logo {
+    width:23%;
+    padding:1%;
+    text-align:center;
+}
+nav {
+    width:73%;
+    padding:1%;
+}
+ul{
+    width: 50%;
+    margin-left:auto;
+}
+.heroImg{
+    height: 100px;
+    width:50px;
+    padding:25px;
+}
+.content{
+    width:500px;
+    margin:0 auto;
+}
+.mySkills{
+    width:50%;
+}
+.flexContainer{
+    display:flex;
+    width: 33%,33%,33%;
+}
+.myWork{
+    width:50%;
+}
+.gridcontainer{
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Project 1"
+    "Project 2"
+    "Project 3";
+}
+footer{
+    background: color #373738;
+    ul {
+        display:inline-block;
+        vertical-align:top;
+        padding: 25%;
+    }
+}
+@media only screen and (max-width: 600){
+    .flexcontainer {
+        display:flex;
+        width:100%;
+    }
+}
