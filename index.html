@@ -3,6 +3,9 @@
 <html>
     <head>
         <title></title>
+        <script src="js/index.js">
+            var $(function(){};)
+        </script>
     </head>
     <body>
         <header class="navigation">
@@ -57,7 +60,12 @@
             <div class="h4">Project 1</div>
             <div class="p">Project 1 focused on pet owners and their needs</div>
                     <button>View Project</button>
-            <div class="img2"></div>
+                    <div id="View Project"></div>
+            <script> $("#tView Project").on("click",function(){
+                alert("Project 1 is being presented");
+        }); 
+    </script>
+            <div class="img2">Img2</div>
             <div class="h5">Project 2</div>
             <div class="p2">Project 2 focused on non-ptofit</div>
             <button>View Project</button>
@@ -72,11 +80,6 @@
             <li>contact</li>
         </ul>
     </footer>
-<script src="js/index.js">
-    <div id="View Project"></div>
-    $("#target").on("click",function(){
-    alert("Project 1 is being presented");
-}); 
-</script>
+
     
 </html>

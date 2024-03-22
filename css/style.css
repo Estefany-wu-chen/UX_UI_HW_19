@@ -36,18 +36,18 @@ ul{
 }
 .workGrid{
     display:grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 50px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "Img"
     "Project 1"
     "Project 2";
 }
 .Img{
-    grid-area:img;
+    grid-area:top-left;
 }
 .h4{
-    grid-area: Project 1;
+    grid-area: top-middle;
 }
 .p{
     grid-area: Project Project 1 focused on pet owners and their needs;
