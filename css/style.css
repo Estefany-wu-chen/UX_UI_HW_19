@@ -39,15 +39,27 @@ ul{
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
+    "Img"
     "Project 1"
-    "Project 2"
-    "Project 3";
+    "Project 2";
 }
 .Img{
     grid-area:img;
 }
 .h4{
     grid-area: Project 1;
+}
+.p{
+    grid-area: Project Project 1 focused on pet owners and their needs;
+}
+.Img2{
+    grid-area:img;
+}
+.h5{
+    grid-area: Project 2;
+}
+.P2{
+    grid-area: Project 2 focused on non-ptofit;
 }
 footer{
     background: color #373738;
