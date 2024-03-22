@@ -53,23 +53,15 @@
     <section class="myWork">
         <h1>My Work</h1>
         <div class="workGrid">
-            <div>
-                <img>
-            </div>
-            <div>
-                <h4></h4>
-                <p></p>
-                <button>View Project</button>
-            </div>
-            <div>
-                <img>
-            </div>
-            <div>
-                <h4></h4>
-                <p></p>
-                <button>View Project</button>
-            </div>
-        </div>
+            <div img></div>
+            <div class="h4">Project 1</div>
+            <div class="p">Project 1 focused on pet owners and their needs</div>
+                    <button>View Project</button>
+            <div img></div>
+            <div class="h4">Project 1</div>
+            <div class="p">Project 1 focused on non-ptofit</div>
+            <button>View Project</button>
+    </div>
         <h3>View All Projects</h3>
     </section>
     <footer>
@@ -80,5 +72,11 @@
             <li>contact</li>
         </ul>
     </footer>
-
+<script src="js/index.js">
+    <div id="View Project"></div>
+    $("#target").on("click",function(){
+    alert("Project 1 is being presented");
+}); 
+</script>
+    
 </html>

@@ -34,7 +34,7 @@ ul{
 .myWork{
     width:50%;
 }
-.gridcontainer{
+.workGrid{
     display:grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 1fr 1fr 1fr;
