@@ -1,3 +1,3 @@
-$("#View Project").on("click",function(){
-    console.log("You clicked on #View Project")
+$ ("#View Project").onclick(function(){
+    alert("Viewing Project");
 });
