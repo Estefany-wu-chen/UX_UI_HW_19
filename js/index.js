@@ -1,3 +1,3 @@
-$ ("#View Project").onclick(function(){
-    alert("Viewing Project");
+$ ("#View Project").click(function(){
+    $(this).alert("Viewing Project 1");
 });
