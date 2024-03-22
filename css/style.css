@@ -43,6 +43,12 @@ ul{
     "Project 2"
     "Project 3";
 }
+.Img{
+    grid-area:img;
+}
+.h4{
+    grid-area: Project 1;
+}
 footer{
     background: color #373738;
     ul {
